@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    display: block;
+}
+
+/*ID´s*/
+#coluna1-form{
+    width: 48%;
+}
+
+#coluna2-form{
+    width: 48%;
+}
+
+#conteudo-form{
+    display: inline;
+}
+
+/*Classes*/
