@@ -17,11 +17,20 @@
 
             <div id="conteudo-form">
                 <div id="coluna1-form">
-                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <div class="entrada-dados">
+                        <input type="text" name="nome" id="nome" placeholder="Nome" class="input-contato" required>
+                        <label for="name" class="form__label">Name</label>
+                    </div>
 
-                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <div class="entrada-dados">
+                        <input type="email" name="email" id="email" placeholder="Email" class="input-contato" required>
+                        <label for="name" class="form__label">Name</label>
+                    </div>
 
-                    <input type="tel" name="tel" id="tel" placeholder="Telefone">
+                    <div class="entrada-dados">
+                        <input type="tel" name="tel" id="tel" placeholder="Telefone" class="input-contato">
+                        <label for="name" class="form__label">Name</label>
+                    </div>
 
                     <select name="assunto" id="assunto" placeholder="Assunto" required>
                         <option value="comercial">Comercial</option>
@@ -35,14 +44,22 @@
                 <div id="coluna2-form">
                     <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
 
-                    <input type="text" id="verificacao" name="verificacao" placeholder="Digite os caracteres">
-                    <img src="./img/verifcação.jpg" alt="Imagem com carcteres de verifcação">
+                    <div class="entrada-dados">
+                        <input type="text" id="verificacao" name="verificacao" placeholder="Digite os caracteres" class="input-contato">
+                        <label for="name" class="form__label">Name</label>
+                    </div>
+
+                    <img src="./img/verificacao.jpg" alt="Imagem com carcteres de verifcação">
                 </div>
             </div>
 
-            <div class="botao">
-                <p>Enviar Mensagem</p>
-            </div>
+            <a href="#">
+                <div class="botao" id="botao" name="botao">
+                    <button>
+                        <p>Enviar Mensagem</p>
+                    </button>
+                </div>
+            </a>
         </form>
     </div>
 </body>
