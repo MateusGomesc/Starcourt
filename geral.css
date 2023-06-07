@@ -8,19 +8,19 @@ font-family: 'Yanone Kaffeesatz', sans-serif;*/
   --corPrincipal: #ff30c0;
   --corSecundaria: #b7ffff;
   --CorTerciaria: #30ffff;
-}
+  --corExtra: #26C9C9;
+} 
+
 
 header {
-  padding: 20px;
-  width: 100%;
+  padding-bottom: 20px;
+  width: 99.9%;
   display: inline-block;
   background-color: var(--corBanner);
   border: 1px var(--corPrincipal) solid;
 }
 
-img {
-  text-align: left;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +28,7 @@ img {
 
 ul {
   display: inline-block;
+  gap: 1em;
 }
 li {
   margin-left: 40px;
@@ -36,16 +37,34 @@ li {
   font-family: "Sora", sans-serif;
   display: inline-block;
 }
+ul li {
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  transition: 0.5s;
+  font-weight: bold;
+}
+   
+  ul Li:hover{
+
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  background: linear-gradient(90deg, var(--corPrincipal) 25%, var(--corExtra) 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  }
 
 a {
   text-decoration: none;
+  color: inherit;
   color: black solid;
 }
 
 footer {
   font-family: "Sora", sans-serif;
   text-align: center;
-  width: 100%;
+  width: 99.9%;
   display: inline-block;
   background-color: var(--corBanner);
   border: 1px var(--corPrincipal) solid;
@@ -54,6 +73,17 @@ footer {
 pre{
     text-align: center;
 }
+
+button{
+  background-color: var(--CorTerciaria);
+border: var(--CorTerciaria);
+width: 95px;
+height: 30px;
+font-family: 'Sora', sans-serif;
+border-radius: 15px;
+}
+
+
 /*CLASSES*/
 
 .banner {
@@ -68,3 +98,9 @@ pre{
   margin-left: 15%;
   text-align: center;
 }
+
+.logostarcourt{
+  text-align: left;
+}
+
+
