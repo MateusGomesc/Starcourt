@@ -98,6 +98,7 @@ button{
   border-radius: 15px;
   width: 150px;
   height: 25px;
+  cursor: pointer;
   background-image: linear-gradient(to right, var(--corPrincipal), var(--corBanner), var(--corTercearia), var(--corSecundaria));
 }
 
@@ -115,6 +116,13 @@ section h1{
   font-weight: 400 lighter;
   font-size: 50px;
   color: white;
+}
+
+article{
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*ID´s*/
@@ -136,17 +144,52 @@ section h1{
     text-align: center;
 }
 
+#subtitulo-form{
+  font-family: Sora, sans-serif;
+}
+
 /*Classes*/
 .formulario{
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 0px 0px 29px 8px rgba(0,0,0,0.46);
     padding: 50px;
+    bottom: 150px;
+    position: relative;
+    background-color: white;
+}
+
+.formulario h1{
+  font-family: Yanone-Kaffeesatz, sans-serif;
 }
 
 .botao{
   margin-top: 10px;
+}
+
+.contatos{
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.contatos img{
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.contatos p{
+  font-family: Sora, sans-serif;
+}
+
+.banner-form{
+  background-image: linear-gradient(to right, var(--corPrincipal), var(--corBanner), var(--corTercearia), var(--corSecundaria));
+  width: 100%;
+  height: 200px;
+  z-index: -1;
 }
