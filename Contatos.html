@@ -10,50 +10,64 @@
 </head>
 
 <body>
-    <div class="formulario">
-        <form action="" method="post">
-            <p>Para Urgências</p>
-            <h1>Preencha esse formulário</h1>
+    <!--Banner Contatos-->
+    <section>
+        <h1>Contatos</h1>
+    </section>
 
-            <div id="conteudo-form">
-                <div id="coluna1-form">
-                    <input type="text" name="nome" id="nome" placeholder="Nome" class="input-contato" required>
+    <main>
+        <!--Telefone e email-->
+        <article>
+            
+        </article>
+
+        <!--Inicio do Formulario-->
+        <div class="formulario">
+            <form action="" method="post">
+                <p>Para Urgências</p>
+                <h1>Preencha esse formulário</h1>
+
+                <div id="conteudo-form">
+                    <div id="coluna1-form">
+                        <input type="text" name="nome" id="nome" placeholder="Nome" class="input-contato" required>
 
 
-                    <input type="email" name="email" id="email" placeholder="Email" class="input-contato" required>
+                        <input type="email" name="email" id="email" placeholder="Email" class="input-contato" required>
 
 
 
-                    <input type="tel" name="tel" id="tel" placeholder="Telefone" class="input-contato">
+                        <input type="tel" name="tel" id="tel" placeholder="Telefone" class="input-contato">
 
 
-                    <select name="assunto" id="assunto" placeholder="Assunto" required>
-                        <option value="comercial">Comercial</option>
-                        <option value="reclamacao">Reclamação</option>
-                        <option value="sugestao">Sugestão</option>
-                        <option value="atendimento">Atendimento</option>
-                        <option value="imprensa">Imprensa</option>
-                    </select>
-                </div>
-
-                <div id="coluna2-form">
-                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
-
-                    <input type="text" id="verificacao" name="verificacao" placeholder="Digite os caracteres"
-                        class="input-contato">
-                    <img src="./img/verificacao.jpg" alt="Imagem com carcteres de verifcação">
-                </div>
-
-                <a href="#">
-                    <div class="botao" id="botao" name="botao">
-                        <button>
-                            <p>Enviar Mensagem</p>
-                        </button>
+                        <select name="assunto" id="assunto" placeholder="Assunto" required>
+                            <option value="" disabled selected>Assunto</option>
+                            <option value="comercial">Comercial</option>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="atendimento">Atendimento</option>
+                            <option value="imprensa">Imprensa</option>
+                        </select>
                     </div>
-                </a>
-            </div>
-        </form>
-    </div>
+
+                    <div id="coluna2-form">
+                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
+
+                        <input type="text" id="verificacao" name="verificacao" placeholder="Digite os caracteres"
+                            class="input-contato" required>
+                        <img src="./img-contatos/verificacao.jpg" alt="Imagem com carcteres de verifcação">
+                    </div>
+
+                    <a href="#">
+                        <div class="botao" id="botao" name="botao">
+                            <button>
+                                <p>Enviar Mensagem</p>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 
 </html>
