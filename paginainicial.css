@@ -18,6 +18,16 @@ h1{
     font-size: 86px;
 
 }
+
+button{
+  background-color: var(--CorTerciaria);
+border: var(--CorTerciaria);
+width: 95px;
+height: 30px;
+font-family: 'Sora', sans-serif;
+border-radius: 15px;
+}
+
 /*CLASSES*/
 .mapa {
     display: flex;
