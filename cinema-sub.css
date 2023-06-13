@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+div{
+    margin: auto;
+    border: 1px pink ;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    margin: auto;
+    color: inherit;
+}
+p{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    text-indent: 2.5%;
+    border-top: 1px gray solid;
+}
+span{
+    text-transform: inherit;
+}
+/*IDS*/
+#img-filme{
+    width: 600px;
+    height: 1000px;
+    display: inline-block;
+    margin-top: 9px;
+}
+#video-yt{
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+#volta{
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/*Classes*/
+.titulo-principal{
+    width: 99.9%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 3px blue solid;
+    background-color: gray;
+}
+.Im{
+    width: 100%;
+    height: 900px;
+    border-radius: 20px;
+}
+.tabela-pr{
+    width: 100%;
+    height: 40%;
+}
+.tabela-pr li{
+    display: inline-block;
+}
+.conteudo-direita{
+    width: 60%;
+    height: 980px;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.infor{
+    text-align: justify;
+    text-align: left;
+    width: 100%;
+    height: 20%;
+}
+.sinopse{
+    text-align: justify;
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+.baner{
+    text-align: top;
+}
+.filme{
+    padding: 70px;
+}
+.cont{
+    width: 1000px;
+    height: 935px;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    border: 10px red solid;
+}
+.video{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.contvideo{
+    width: 50%;
+    height: 100%;
+}
+.dias{
+    border: 1px red solid;
+    border-radius: 3px;
+    width: 13%;
+    height: 10%;
+    margin: 3px;
+    text-align: center;
+}
+.texto-esquerda{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    border-top: 5px gray solid;
+}
+.cont2{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+.gif{
+    margin: auto;
+}
+.bot{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lk-bt{
+    border: 1px red solid;
+}
