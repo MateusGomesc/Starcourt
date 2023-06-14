@@ -1,0 +1,100 @@
+*{margin: 0;
+padding: 0;}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+span{
+    color: red;
+}
+/*IDS*/
+
+
+
+/*Classes*/
+.titulo{
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cont-film{
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+}
+.cont{
+    width: 1250px;
+    height: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 10px red solid;
+    margin: auto;
+    border: 1px gray solid;
+}
+.baner{
+    width: 370px;
+    height: 450px;
+    text-align: center;
+    border-radius: 50px;
+}
+.pro{
+    width: 100%;
+    height: 500px;
+}
+.pro-img{
+    width: 100%;
+    height: 100%;   
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.div-baner{
+    display: inline-block;
+    margin: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.bott{
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border: 3px gray solid;
+    border-radius: 50px;
+}
+.cads-prom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.cont-brev{
+    background-color: white;
+    border-radius: 50px;
+}
+.cont-seg{
+    text-align: center;
+}
+.div-baner-seg{
+    display: inline-block;
+    margin: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+.baner-seg{
+    width: 185px;
+    height: 250px;
+    border-radius: 25px;
+}
