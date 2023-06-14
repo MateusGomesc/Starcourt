@@ -9,7 +9,7 @@ font-family: 'Yanone Kaffeesatz', sans-serif;*/
   --corSecundaria: #b7ffff;
   --CorTerciaria: #30ffff;
   --corExtra: #26C9C9;
-} 
+}
 
 
 header {
@@ -17,7 +17,7 @@ header {
   width: 99.9%;
   display: inline-block;
   border-bottom: 5px solid transparent;
-  background: linear-gradient( var(--corBanner) , var(--corBanner))padding-box, linear-gradient(to right,#ff30c0, #30ffff)border-box;
+  background: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
 }
 
 
@@ -26,17 +26,19 @@ header {
   padding: 0;
 }
 
-ul {
-  display: inline-block;
-  gap: 1em;
-}
 li {
   margin-left: 40px;
   font-size: 20px;
   text-decoration: none;
   font-family: "Sora", sans-serif;
-  display: inline-block;
 }
+
+ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 ul li {
   list-style-type: none;
   color: rgb(0, 0, 0);
@@ -44,16 +46,16 @@ ul li {
   transition: 0.5s;
   font-weight: bold;
 }
-   
-  ul Li:hover{
+
+ul Li:hover {
 
   cursor: pointer;
   letter-spacing: 0.5px;
-  background: linear-gradient(90deg, var(--corPrincipal) 25%, var(--corExtra) 100% );
+  background: linear-gradient(90deg, var(--corPrincipal) 25%, var(--corExtra) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  }
+}
 
 a {
   text-decoration: none;
@@ -67,11 +69,11 @@ footer {
   width: 99.9%;
   display: inline-block;
   border-top: 5px solid transparent;
-  background: linear-gradient( var(--corBanner) , var(--corBanner))padding-box, linear-gradient(to right,#ff30c0, #30ffff)border-box;
+  background: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
 }
 
-pre{
-    text-align: center;
+pre {
+  text-align: center;
 }
 
 /*CLASSES*/
@@ -82,15 +84,15 @@ pre{
 
 .header-menu {
   text-align: center;
-  display: inline-block;
 }
+
 .menu {
-  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.logostarcourt {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
-.logostarcourt{
-  text-align: left;
-}
-
-

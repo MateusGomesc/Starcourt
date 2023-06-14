@@ -13,19 +13,28 @@ font-family: 'Yanone Kaffeesatz', sans-serif;*/
 body {
     font-family: 'Sora', sans-serif;
 }
-h1{
+
+h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 86px;
 
 }
 
-button{
-  background-color: var(--CorTerciaria);
-border: var(--CorTerciaria);
-width: 95px;
-height: 30px;
-font-family: 'Sora', sans-serif;
-border-radius: 15px;
+button {
+    background-color: var(--CorTerciaria);
+    border: var(--CorTerciaria);
+    width: 100px;
+    height: 30px;
+    font-family: 'Sora', sans-serif;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    letter-spacing: 0.5px;
+    background: linear-gradient(90deg, var(--corPrincipal) 25%, var(--corExtra) 100%);
+
 }
 
 /*CLASSES*/
@@ -41,10 +50,11 @@ border-radius: 15px;
     margin-left: 90px;
 }
 
-.maps{
-border: 2px var(--corPrincipal) solid;
-border-radius: 50px;
-padding: 10px;
+.maps {
+    border: 2px var(--corPrincipal) solid;
+    border-radius: 50px;
+    padding: 10px;
+
 }
 
 .cinema {
@@ -55,10 +65,11 @@ padding: 10px;
     margin: auto;
 }
 
-.cine-text{
+.cine-text {
     margin-left: 90px;
 }
-.lojas{
+
+.lojas {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,18 +77,21 @@ padding: 10px;
     margin: auto;
 }
 
-.loja-text{
+.loja-text {
     margin-left: 90px;
 }
 
-.new{
-    background-color: var(--corSecundaria) ;    
+.new {
+    background-color: var(--corSecundaria);
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
 }
-.new-w{
+
+.new-w {
     text-align: center;
 }
 
-.horas{
+.horas {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -85,6 +99,27 @@ padding: 10px;
     margin: auto;
 }
 
-.horas-text{
+.horas-text {
     margin-left: 20px;
+}
+
+.novidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.novidades-img {
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background: linear-gradient(to right, #ff30c0, #30ffff)border-box;
+}
+
+.imgnew {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
 }

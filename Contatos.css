@@ -102,19 +102,20 @@ button{
   background-image: linear-gradient(to right, var(--corPrincipal), var(--corBanner), var(--corTercearia), var(--corSecundaria));
 }
 
+section{
+  background-image: url(./img-contatos/fachada-starcourt.jpg);
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
 section h1{
   padding: 120px;
   font-family: Yanone-Kaffeesatz, sans-serif;
   font-weight: 400 lighter;
   font-size: 50px;
   color: white;
-  text-align: center;
-  margin-top: -350px;
-  margin-bottom: 80px;
-}
-
-section img{
-  width: 100%;
 }
 
 article{
