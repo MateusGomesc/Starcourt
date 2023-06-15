@@ -34,7 +34,7 @@ button:hover {
     color: white;
     letter-spacing: 0.5px;
     background: linear-gradient(90deg, var(--corPrincipal) 25%, var(--corExtra) 100%);
-
+scale: 1.1;
 }
 
 /*CLASSES*/
@@ -45,6 +45,10 @@ button:hover {
     align-items: center;
     margin: auto;
 }
+
+.maps:hover{
+    scale: 1.1;
+    }
 
 .loc-mapa {
     margin-left: 90px;
@@ -104,6 +108,7 @@ button:hover {
 }
 
 .novidades {
+padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -115,7 +120,11 @@ button:hover {
     height: 300px;
     border-radius: 20px;
     border: 3px solid transparent;
-    background: linear-gradient(to right, #ff30c0, #30ffff)border-box;
+    background: linear-gradient(to right, #ff30c0, #ffa2eb)border-box;
+}
+
+.novidades-img:hover{
+scale: 1.1;
 }
 
 .imgnew {
@@ -123,3 +132,9 @@ button:hover {
     width: 100%;
     height: 100%;
 }
+
+.fotopc{
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+

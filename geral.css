@@ -96,3 +96,7 @@ pre {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.redes:hover{
+  scale: 1.2;
+}
