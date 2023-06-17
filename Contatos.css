@@ -101,19 +101,6 @@ button{
   cursor: pointer;
   background-image: linear-gradient(to right, var(--corPrincipal), var(--corBanner), var(--corTercearia), var(--corSecundaria));
 }
-section{
-  width: 100%;
-  background-image: linear-gradient(to right, var(--corPrincipal), var(--corBanner), var(--corTercearia), var(--corSecundaria));  
-}
-
-section h1{
-  padding: 120px;
-  font-family: Yanone-Kaffeesatz, sans-serif;
-  font-weight: 400 lighter;
-  font-size: 50px;
-  color: white;
-  margin-top: -300px;
-}
 
 article{
   text-align: center;
