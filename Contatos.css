@@ -101,6 +101,9 @@ button{
   cursor: pointer;
   background-image: linear-gradient(to right, var(--corPrincipal), var(--corBanner), var(--corTercearia), var(--corSecundaria));
 }
+section{
+  width: 100%;
+}
 
 section img{
   width: 100%;
