@@ -103,11 +103,7 @@ button{
 }
 section{
   width: 100%;
-}
-
-section img{
-  width: 100%;
-  height: 300px;
+  background-image: linear-gradient(to right, var(--corPrincipal), var(--corBanner), var(--corTercearia), var(--corSecundaria));  
 }
 
 section h1{
