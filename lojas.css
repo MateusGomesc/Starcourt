@@ -119,7 +119,12 @@ h2 {
 }
 
 .lojafuncaoe {
+    margin-bottom: 30px;
     margin-right: 95px;
     margin-left: 25%;
     display: inline-block;    
+}
+
+#topo {
+    margin-top: 30px;
 }
