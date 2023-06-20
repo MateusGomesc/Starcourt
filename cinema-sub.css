@@ -1,3 +1,121 @@
+/*Geral-inicio*/
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap");
+
+/*font-family: 'Sora', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
+:root {
+  --corBanner: #f2bce1;
+  --corPrincipal: #ff30c0;
+  --corSecundaria: #b7ffff;
+  --CorTerciaria: #30ffff;
+  --corExtra: #26C9C9;
+}
+
+
+header {
+  padding-bottom: 20px;
+  width: 99.9%;
+  display: inline-block;
+  border-bottom: 5px solid transparent;
+  background: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  margin-left: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+}
+p{
+  font-size: 15px;
+}
+header ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+header ul li {
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+header ul Li:hover {
+
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  background: linear-gradient(90deg, var(--corPrincipal) 25%, var(--corExtra) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: black solid;
+}
+
+footer {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  width: 99.9%;
+  display: inline-block;
+  border-top: 5px solid transparent;
+  background: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
+}
+
+pre {
+  text-align: center;
+}
+
+/*CLASSES-geral*/
+
+.banner {
+  display: inline-block;
+}
+
+.header-menu {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.logostarcourt {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.redes:hover{
+  scale: 1.2;
+}
+
+.horas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.horas-text {
+  margin-left: 20px;
+}
+/*Geral-fim*/
 *{
     margin: 0;
     padding: 0;
@@ -5,32 +123,46 @@
 body{
     width: 100%;
     height: 100%;
+    background:  linear-gradient(rgb(255, 215, 227), #f2bce1);
+    font-family: 'Sora', sans-serif;
+    font-size: 13px;
 }
-div{
+span{
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 28px;
+}
+.tudo div{
     margin: auto;
     border: 1px pink ;
 }
-a{
+.tudo a{
     text-decoration: none;
     color: inherit;
 }
-ul{
+.tudo ul{
     text-decoration: none;
 }
-li{
+.tudo li{
     text-decoration: none;
     margin: auto;
     color: inherit;
 }
-p{
-    margin-left: 2%;
+.tudo p{
+    margin-left: 4%;
     margin-right: 2%;
     text-align: justify;
-    text-indent: 2.5%;
+    text-indent: 5%;
     border-top: 1px gray solid;
 }
-span{
+.tudo span{
     text-transform: inherit;
+    margin-left: 4%;
+    margin-right: 2%;
+    text-align: justify;
+    margin-bottom: 3px;
 }
 /*IDS*/
 #img-filme{
@@ -58,13 +190,16 @@ span{
     height: 200px;
     text-align: center;
     margin: auto;
-    border-bottom: 3px blue solid;
-    background-color: gray;
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px linen solid;
 }
 .Im{
     width: 100%;
-    height: 900px;
+    height: 850px;
     border-radius: 20px;
+    border: 5px solid transparent;
+    background:  linear-gradient(rgb(255, 215, 227), #f2bce1)padding-box, linear-gradient(to right,#ff30c0, #30ffff)border-box;
 }
 .tabela-pr{
     width: 100%;
@@ -86,11 +221,15 @@ span{
     width: 100%;
     height: 20%;
 }
+.infor ul{
+  text-decoration: none;
+  list-style: none;
+}
 .sinopse{
     text-align: justify;
     display: flex;
     width: 100%;
-    height: 20%;
+    height: auto;
 }
 .baner{
     text-align: top;
@@ -104,7 +243,6 @@ span{
     text-align: center;
     display: flex;
     margin-top: 20px;
-    border: 10px red solid;
 }
 .video{
     width: 100%;
@@ -120,7 +258,8 @@ span{
     height: 100%;
 }
 .dias{
-    border: 1px red solid;
+    border: 2px solid transparent;
+    background:  linear-gradient(rgb(255, 215, 227), #f2bce1)padding-box, linear-gradient(to right,#ff30c0, #30ffff)border-box;
     border-radius: 3px;
     width: 13%;
     height: 10%;
@@ -131,7 +270,9 @@ span{
     text-align: center;
     width: 100%;
     height: 10%;
-    border-top: 5px gray solid;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    margin: 1px;
 }
 .cont2{
     width: 1000px;
@@ -147,5 +288,11 @@ span{
     margin-bottom: 20px;
 }
 .lk-bt{
-    border: 1px red solid;
+    border: 2px solid transparent;
+    background:  linear-gradient(rgb(255, 215, 227), #f2bce1)padding-box, linear-gradient(to right,#ff30c0, #30ffff)border-box;
+    border-radius: 3px;
+    margin: 1px;
+}
+.bot span{
+  margin: 50px;
 }
