@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap");
+
 .lojalogo {
-    border: 1px gray solid;
+    border: 4px solid transparent;
+    background: linear-gradient(white, white)padding-box, linear-gradient(to right,#ff30c0, #30ffff)border-box;
     border-radius: 8%;
     display: inline-block;
     margin-left: 20%;
@@ -17,108 +20,126 @@ h2 {
 }
 
 .lojanome1 {
+    font-family: 'Sora', sans-serif;
     margin-right: 120px;
     margin-left: 26%;
     display: inline-block;
 }
 
 .lojanome2 {
+    font-family: 'Sora', sans-serif;
     margin-right: 140px;
     margin-left: 28%;
     display: inline-block;    
 }
 
 .lojanome3 {
+    font-family: 'Sora', sans-serif;
     margin-right: 140px;
     margin-left: 27%;
     display: inline-block;     
 }
 
 .lojanome4 {
+    font-family: 'Sora', sans-serif;
     margin-right: 100px;
     margin-left: 29%;
     display: inline-block;     
 }
 
 .lojanome5 {
+    font-family: 'Sora', sans-serif;
     margin-right: 130px;
     margin-left: 28%;
     display: inline-block; 
 }
 
 .lojanome6 {
+    font-family: 'Sora', sans-serif;
     margin-right: 135px;
     margin-left: 28%;
     display: inline-block; 
 }
 
 .lojanome7 {
+    font-family: 'Sora', sans-serif;
     margin-right: 155px;
     margin-left: 28%;
     display: inline-block; 
 }
 
 .lojanome8 {
+    font-family: 'Sora', sans-serif;
     margin-right: 137px;
     margin-left: 26.1%;
     display: inline-block; 
 }
 
 .lojanome9 {
+    font-family: 'Sora', sans-serif;
     margin-right: 95px;
     margin-left: 28%;
     display: inline-block; 
 }
 
 .lojanome10 {
+    font-family: 'Sora', sans-serif;
     margin-right: 150px;
     margin-left: 28%;
     display: inline-block; 
 }
 
 .lojafuncaof {
+    font-family: 'Sora', sans-serif;
     margin-right: 80px;
     margin-left: 25.5%;
     display: inline-block;
 }
 
 .lojafuncaob {
+    font-family: 'Sora', sans-serif;
     margin-right: 65px;
     margin-left: 25.5%;
     display: inline-block;    
 }
 
 .lojafuncaoc {
+    font-family: 'Sora', sans-serif;
     margin-right: 80px;
     margin-left: 27%;
     display: inline-block;    
 }
 
 .lojafuncaod {
+    font-family: 'Sora', sans-serif;
     margin-right: 65px;
     margin-left: 25.5%;
     display: inline-block;
 }
 
 .lojafuncaoae {
+    font-family: 'Sora', sans-serif;
     margin-right: 45px;
     margin-left: 24%;
     display: inline-block;    
 }
 
 .lojafuncaog {
+    font-family: 'Sora', sans-serif;
     margin-right: 110px;
     margin-left: 26%;
     display: inline-block;    
 }
 
 .lojafuncaoj {
+    font-family: 'Sora', sans-serif;
     margin-right: 95px;
     margin-left: 26.5%;
     display: inline-block;    
 }
 
 .lojafuncaoe {
+    font-family: 'Sora', sans-serif;
     margin-bottom: 30px;
     margin-right: 95px;
     margin-left: 25%;
